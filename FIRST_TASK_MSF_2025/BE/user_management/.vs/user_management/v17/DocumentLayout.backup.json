@@ -1,0 +1,959 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\2025_INTERN\\BE\\user_management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\controllers\\apilogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\controllers\\apilogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\blacklisttoken\\blacklisttokenrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\blacklisttoken\\blacklisttokenrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\blacklisttoken\\iblacklisttokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\blacklisttoken\\iblacklisttokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\services\\apilogservice\\apilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\services\\apilogservice\\apilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\apilogs\\apilogrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\apilogs\\apilogrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\apilogs\\iapilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\apilogs\\iapilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\authen\\authenticationrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\authen\\authenticationrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\authen\\iauthenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\authen\\iauthenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\userrepository\\userrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\userrepository\\userrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\role\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\role\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\mappers\\basicmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\mappers\\basicmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\services\\userservice\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\services\\userservice\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\services\\settings\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\services\\settings\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\services\\settings\\settingserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\services\\settings\\settingserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\services\\role\\roleserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\services\\role\\roleserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\services\\role\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\services\\role\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\role\\rolerepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\role\\rolerepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\settings\\settingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\settings\\settingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\requestdto\\rolerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\requestdto\\rolerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\respositories\\settings\\isettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\respositories\\settings\\isettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\services\\authenservice\\authenserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\services\\authenservice\\authenserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\jwt_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\jwt_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\requestdto\\updatesettingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\requestdto\\updatesettingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\responsedto\\updatesettingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\responsedto\\updatesettingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\requestdto\\updateuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\requestdto\\updateuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\responsedto\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\responsedto\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\responsedto\\messageresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\responsedto\\messageresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\responsedto\\authenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\responsedto\\authenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\responsedto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\responsedto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\models\\apilog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\models\\apilog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\requestdto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\requestdto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\models\\blasklisttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\models\\blasklisttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\migrations\\20250317081013_edit_column_responsebody_tb_apilog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\migrations\\20250317081013_edit_column_responsebody_tb_apilog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\middleware\\apiloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\middleware\\apiloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\utils\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\utils\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\controllers\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\controllers\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\migrations\\20250311043016_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\migrations\\20250311043016_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\services\\authenservice\\iauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\services\\authenservice\\iauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\utils\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\utils\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\requestdto\\stringkeysettingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\requestdto\\stringkeysettingrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\responsedto\\settingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\responsedto\\settingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\requestdto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\requestdto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\dto\\requestdto\\updateuserrolerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\dto\\requestdto\\updateuserrolerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250311042211_Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:user_management\\Migrations\\20250311042211_Database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\migrations\\20250317082043_edit_column_responsebody_tb_apilog_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\migrations\\20250317082043_edit_column_responsebody_tb_apilog_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|c:\\2025_intern\\be\\user_management\\user_management\\migrations\\20250317081153_edit_column_responsebody_tb_apilog_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0944B3A5-DBE4-487E-96B7-5D6435BB090A}|user_management\\user_management.csproj|solutionrelative:user_management\\migrations\\20250317081153_edit_column_responsebody_tb_apilog_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiLogService.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\ApiLogService\\ApiLogService.cs",
+              "RelativeDocumentMoniker": "user_management\\Services\\ApiLogService\\ApiLogService.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\ApiLogService\\ApiLogService.cs",
+              "RelativeToolTip": "user_management\\Services\\ApiLogService\\ApiLogService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:44:22.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBlackListTokenRepository.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\BlackListToken\\IBlackListTokenRepository.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\BlackListToken\\IBlackListTokenRepository.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\BlackListToken\\IBlackListTokenRepository.cs",
+              "RelativeToolTip": "user_management\\Respositories\\BlackListToken\\IBlackListTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:11:04.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlackListTokenRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\BlackListToken\\BlackListTokenRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\BlackListToken\\BlackListTokenRepositoryImpl.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\BlackListToken\\BlackListTokenRepositoryImpl.cs",
+              "RelativeToolTip": "user_management\\Respositories\\BlackListToken\\BlackListTokenRepositoryImpl.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:15:10.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiLogController.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\ApiLogController.cs",
+              "RelativeDocumentMoniker": "user_management\\Controllers\\ApiLogController.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\ApiLogController.cs",
+              "RelativeToolTip": "user_management\\Controllers\\ApiLogController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T06:47:57.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiLogRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\ApiLogs\\ApiLogRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\ApiLogs\\ApiLogRepositoryImpl.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\ApiLogs\\ApiLogRepositoryImpl.cs",
+              "RelativeToolTip": "user_management\\Respositories\\ApiLogs\\ApiLogRepositoryImpl.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:46:24.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IApiLogRepository.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\ApiLogs\\IApiLogRepository.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\ApiLogs\\IApiLogRepository.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\ApiLogs\\IApiLogRepository.cs",
+              "RelativeToolTip": "user_management\\Respositories\\ApiLogs\\IApiLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:46:03.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthenRepository.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Authen\\IAuthenRepository.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\Authen\\IAuthenRepository.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Authen\\IAuthenRepository.cs",
+              "RelativeToolTip": "user_management\\Respositories\\Authen\\IAuthenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:15:46.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Program.cs",
+              "RelativeDocumentMoniker": "user_management\\Program.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Program.cs",
+              "RelativeToolTip": "user_management\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAASwGAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T08:58:42.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenticationRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Authen\\AuthenticationRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\Authen\\AuthenticationRepositoryImpl.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Authen\\AuthenticationRepositoryImpl.cs",
+              "RelativeToolTip": "user_management\\Respositories\\Authen\\AuthenticationRepositoryImpl.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAmwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:09:29.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\UserRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\UserRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\UserRepository\\IUserRepository.cs",
+              "RelativeToolTip": "user_management\\Respositories\\UserRepository\\IUserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADgvwkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T03:48:30.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\UserRepository\\UserRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\UserRepository\\UserRepositoryImpl.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\UserRepository\\UserRepositoryImpl.cs",
+              "RelativeToolTip": "user_management\\Respositories\\UserRepository\\UserRepositoryImpl.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T06:52:18.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Role\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\Role\\IRoleRepository.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Role\\IRoleRepository.cs",
+              "RelativeToolTip": "user_management\\Respositories\\Role\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:57:01.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BasicMapper.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Mappers\\BasicMapper.cs",
+              "RelativeDocumentMoniker": "user_management\\Mappers\\BasicMapper.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Mappers\\BasicMapper.cs",
+              "RelativeToolTip": "user_management\\Mappers\\BasicMapper.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAawDMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:05:35.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "user_management\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\UserController.cs",
+              "RelativeToolTip": "user_management\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwB0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T01:58:53.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\UserService\\IUserService.cs",
+              "RelativeDocumentMoniker": "user_management\\Services\\UserService\\IUserService.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\UserService\\IUserService.cs",
+              "RelativeToolTip": "user_management\\Services\\UserService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T04:08:14.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserServiceImpl.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\UserService\\UserServiceImpl.cs",
+              "RelativeDocumentMoniker": "user_management\\Services\\UserService\\UserServiceImpl.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\UserService\\UserServiceImpl.cs",
+              "RelativeToolTip": "user_management\\Services\\UserService\\UserServiceImpl.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAEwB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T04:08:29.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "user_management\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "user_management\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:52:22.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ISettingService.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\Settings\\ISettingService.cs",
+              "RelativeDocumentMoniker": "user_management\\Services\\Settings\\ISettingService.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\Settings\\ISettingService.cs",
+              "RelativeToolTip": "user_management\\Services\\Settings\\ISettingService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:51:03.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SettingServiceImpl.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\Settings\\SettingServiceImpl.cs",
+              "RelativeDocumentMoniker": "user_management\\Services\\Settings\\SettingServiceImpl.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\Settings\\SettingServiceImpl.cs",
+              "RelativeToolTip": "user_management\\Services\\Settings\\SettingServiceImpl.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwFkAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:51:19.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoleServiceImpl.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\Role\\RoleServiceImpl.cs",
+              "RelativeDocumentMoniker": "user_management\\Services\\Role\\RoleServiceImpl.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\Role\\RoleServiceImpl.cs",
+              "RelativeToolTip": "user_management\\Services\\Role\\RoleServiceImpl.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:48:23.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\Role\\IRoleService.cs",
+              "RelativeDocumentMoniker": "user_management\\Services\\Role\\IRoleService.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\Role\\IRoleService.cs",
+              "RelativeToolTip": "user_management\\Services\\Role\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:48:01.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RoleRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Role\\RoleRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\Role\\RoleRepositoryImpl.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Role\\RoleRepositoryImpl.cs",
+              "RelativeToolTip": "user_management\\Respositories\\Role\\RoleRepositoryImpl.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:56:27.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SettingRepository.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Settings\\SettingRepository.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\Settings\\SettingRepository.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Settings\\SettingRepository.cs",
+              "RelativeToolTip": "user_management\\Respositories\\Settings\\SettingRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T08:54:23.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoleRequestDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\RoleRequestDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\RequestDto\\RoleRequestDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\RoleRequestDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\RequestDto\\RoleRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:39:35.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISettingRepository.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Settings\\ISettingRepository.cs",
+              "RelativeDocumentMoniker": "user_management\\Respositories\\Settings\\ISettingRepository.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Respositories\\Settings\\ISettingRepository.cs",
+              "RelativeToolTip": "user_management\\Respositories\\Settings\\ISettingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T08:53:34.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthenServiceImpl.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\AuthenService\\AuthenServiceImpl.cs",
+              "RelativeDocumentMoniker": "user_management\\Services\\AuthenService\\AuthenServiceImpl.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\AuthenService\\AuthenServiceImpl.cs",
+              "RelativeToolTip": "user_management\\Services\\AuthenService\\AuthenServiceImpl.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAEQAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:05:06.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SettingController.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\SettingController.cs",
+              "RelativeDocumentMoniker": "user_management\\Controllers\\SettingController.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\SettingController.cs",
+              "RelativeToolTip": "user_management\\Controllers\\SettingController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:11:17.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "JWT_API.http",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\JWT_API.http",
+              "RelativeDocumentMoniker": "user_management\\JWT_API.http",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\JWT_API.http",
+              "RelativeToolTip": "user_management\\JWT_API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-14T01:39:29.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateSettingRequestDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\UpdateSettingRequestDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\RequestDto\\UpdateSettingRequestDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\UpdateSettingRequestDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\RequestDto\\UpdateSettingRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T10:15:16.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateSettingResponseDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\UpdateSettingResponseDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\ResponseDto\\UpdateSettingResponseDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\UpdateSettingResponseDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\ResponseDto\\UpdateSettingResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T03:12:11.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateUserRequestDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\UpdateUserRequestDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\RequestDto\\UpdateUserRequestDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\UpdateUserRequestDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\RequestDto\\UpdateUserRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T02:54:51.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\User.cs",
+              "RelativeDocumentMoniker": "user_management\\Models\\User.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\User.cs",
+              "RelativeToolTip": "user_management\\Models\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:44:10.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\ResponseDto\\UserResponseDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\UserResponseDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\ResponseDto\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:15:32.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MessageResponseDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\MessageResponseDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\ResponseDto\\MessageResponseDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\MessageResponseDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\ResponseDto\\MessageResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T09:32:31.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuthenResponseDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\AuthenResponseDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\ResponseDto\\AuthenResponseDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\AuthenResponseDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\ResponseDto\\AuthenResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T03:20:10.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\ResponseDto\\LoginResponseDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\LoginResponseDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\ResponseDto\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T03:38:10.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApiLog.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\ApiLog.cs",
+              "RelativeDocumentMoniker": "user_management\\Models\\ApiLog.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\ApiLog.cs",
+              "RelativeToolTip": "user_management\\Models\\ApiLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:02:54.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\RequestDto\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\RegisterRequestDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\RequestDto\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAtwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:16:00.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BlaskListToken.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\BlaskListToken.cs",
+              "RelativeDocumentMoniker": "user_management\\Models\\BlaskListToken.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\BlaskListToken.cs",
+              "RelativeToolTip": "user_management\\Models\\BlaskListToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:06:22.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250317081013_edit_Column_ResponseBody_TB_ApiLog.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250317081013_edit_Column_ResponseBody_TB_ApiLog.cs",
+              "RelativeDocumentMoniker": "user_management\\Migrations\\20250317081013_edit_Column_ResponseBody_TB_ApiLog.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250317081013_edit_Column_ResponseBody_TB_ApiLog.cs",
+              "RelativeToolTip": "user_management\\Migrations\\20250317081013_edit_Column_ResponseBody_TB_ApiLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:10:13.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApiLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Middleware\\ApiLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "user_management\\Middleware\\ApiLoggingMiddleware.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Middleware\\ApiLoggingMiddleware.cs",
+              "RelativeToolTip": "user_management\\Middleware\\ApiLoggingMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwB0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:56:06.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\appsettings.json",
+              "RelativeDocumentMoniker": "user_management\\appsettings.json",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\appsettings.json",
+              "RelativeToolTip": "user_management\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T03:38:03.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Utils\\Constants.cs",
+              "RelativeDocumentMoniker": "user_management\\Utils\\Constants.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Utils\\Constants.cs",
+              "RelativeToolTip": "user_management\\Utils\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T03:31:02.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250317082043_edit_Column_ResponseBody_TB_ApiLog_3.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250317082043_edit_Column_ResponseBody_TB_ApiLog_3.cs",
+              "RelativeDocumentMoniker": "user_management\\Migrations\\20250317082043_edit_Column_ResponseBody_TB_ApiLog_3.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250317082043_edit_Column_ResponseBody_TB_ApiLog_3.cs",
+              "RelativeToolTip": "user_management\\Migrations\\20250317082043_edit_Column_ResponseBody_TB_ApiLog_3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:20:43.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AuthenController.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\AuthenController.cs",
+              "RelativeDocumentMoniker": "user_management\\Controllers\\AuthenController.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Controllers\\AuthenController.cs",
+              "RelativeToolTip": "user_management\\Controllers\\AuthenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:14:40.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20250317081153_edit_Column_ResponseBody_TB_ApiLog_2.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250317081153_edit_Column_ResponseBody_TB_ApiLog_2.cs",
+              "RelativeDocumentMoniker": "user_management\\Migrations\\20250317081153_edit_Column_ResponseBody_TB_ApiLog_2.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250317081153_edit_Column_ResponseBody_TB_ApiLog_2.cs",
+              "RelativeToolTip": "user_management\\Migrations\\20250317081153_edit_Column_ResponseBody_TB_ApiLog_2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:11:53.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Data\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "user_management\\Data\\ApplicationContext.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Data\\ApplicationContext.cs",
+              "RelativeToolTip": "user_management\\Data\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:18:38.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250311043016_Database.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250311043016_Database.cs",
+              "RelativeDocumentMoniker": "user_management\\Migrations\\20250311043016_Database.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250311043016_Database.cs",
+              "RelativeToolTip": "user_management\\Migrations\\20250311043016_Database.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:20:16.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "user_management\\Models\\Role.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\Role.cs",
+              "RelativeToolTip": "user_management\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T01:24:53.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "user_management\\Models\\Setting.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Models\\Setting.cs",
+              "RelativeToolTip": "user_management\\Models\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T03:40:57.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IAuthenService.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\AuthenService\\IAuthenService.cs",
+              "RelativeDocumentMoniker": "user_management\\Services\\AuthenService\\IAuthenService.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Services\\AuthenService\\IAuthenService.cs",
+              "RelativeToolTip": "user_management\\Services\\AuthenService\\IAuthenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:15:36.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Utils\\AppSettings.cs",
+              "RelativeDocumentMoniker": "user_management\\Utils\\AppSettings.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Utils\\AppSettings.cs",
+              "RelativeToolTip": "user_management\\Utils\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T03:24:33.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "StringKeySettingRequestDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\StringKeySettingRequestDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\RequestDto\\StringKeySettingRequestDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\StringKeySettingRequestDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\RequestDto\\StringKeySettingRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T08:34:02.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SettingResponseDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\SettingResponseDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\ResponseDto\\SettingResponseDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\ResponseDto\\SettingResponseDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\ResponseDto\\SettingResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:52:15.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\RequestDto\\LoginRequestDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\LoginRequestDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\RequestDto\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T02:37:49.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UpdateUserRoleRequestDto.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\UpdateUserRoleRequestDto.cs",
+              "RelativeDocumentMoniker": "user_management\\Dto\\RequestDto\\UpdateUserRoleRequestDto.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Dto\\RequestDto\\UpdateUserRoleRequestDto.cs",
+              "RelativeToolTip": "user_management\\Dto\\RequestDto\\UpdateUserRoleRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:14:23.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20250311042211_Database.cs",
+              "DocumentMoniker": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250311042211_Database.cs",
+              "RelativeDocumentMoniker": "user_management\\Migrations\\20250311042211_Database.cs",
+              "ToolTip": "C:\\2025_INTERN\\BE\\user_management\\user_management\\Migrations\\20250311042211_Database.cs",
+              "RelativeToolTip": "user_management\\Migrations\\20250311042211_Database.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:22:11.482Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
