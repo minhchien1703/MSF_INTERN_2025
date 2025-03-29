@@ -1,0 +1,19 @@
+.login-left-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #201c3c;
+    background-size: contain;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.login-left-bg .content {
+    width: 600px;
+    height: 600px;
+    background-image: url('https://images-workbench.99static.com/hlUZa0OB7gpETGkwFHKV5CuUdCo=/191x0:805x614/fit-in/500x500/filters:fill(white,true):format(webp)/99designs-contests-attachments/81/81592/attachment_81592268');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

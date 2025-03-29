@@ -15,6 +15,8 @@ namespace user_management.Models
         public string LastName { get; set; }
         [MaxLength(50)]
         public string Email { get; set; }
+        [MaxLength(50)]
+        public string UserName{ get; set; }
         [MaxLength(255)]
         public string Password { get; set; }
         [MaxLength(50)]
@@ -22,11 +24,11 @@ namespace user_management.Models
         [MaxLength(50)]
         public string? ResponsibleUnit { get; set; }
         public Boolean Status { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdateAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
 
-
-        [ForeignKey(nameof(Role))] 
-        public int Role_Id { get; set; }
-        public virtual Role Role { get; set; }
+        public ICollection<UserRole> UserRoles { get; set; }
 
     }
 }

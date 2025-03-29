@@ -1,0 +1,24 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.content-setting-br {
+    border-radius: 5px;
+}
+
+.nav-setting {
+    border-radius: 5px;
+    color: #301c4c;
+}
+
+.btn-setting {
+    background-color: #301c4c;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn-setting:hover {
+    background-color: #a874f4;
+}

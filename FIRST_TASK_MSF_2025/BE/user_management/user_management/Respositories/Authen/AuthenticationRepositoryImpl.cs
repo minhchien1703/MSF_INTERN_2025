@@ -47,7 +47,7 @@ namespace user_management.Respositories.Authen
                 if (user != null)
                 {
                     bool isPasswordValid = BCrypt.Net.BCrypt.Verify(req.Password, user.Password);
-                    var role = _context.Roles.Find(user.Role_Id);
+                    
 
                     if (isPasswordValid)
                     {
@@ -58,7 +58,7 @@ namespace user_management.Respositories.Authen
                             {
                                 new Claim(ClaimTypes.Name, user.Id.ToString()),
                                 new Claim(ClaimTypes.Email, user.Email),
-                                new Claim(ClaimTypes.Role, role.Name)
+                                //new Claim(ClaimTypes.Role, role.Name)
                             }),
                             Expires = DateTime.UtcNow.AddDays(_expiresInDay),
                             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
@@ -72,12 +72,13 @@ namespace user_management.Respositories.Authen
                         var httpContext = _httpContextAccessor.HttpContext;
                         httpContext.Session.SetString("UserId", user.Id.ToString());
                         httpContext.Session.SetString("UserEmail", user.Email);
-                        httpContext.Session.SetString("UserRole", role.Name);
+                        //httpContext.Session.SetString("UserRole", role.Name);
+                        httpContext.Session.SetString("UserName", user.FirstName);
 
                         return new LoginResponseDto
                         {
                             UserName = user.LastName,
-                            RoleName = role.Name,
+                            //RoleName = role.Name,
                             Token = tokenString
                         };
 

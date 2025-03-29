@@ -20,7 +20,7 @@ namespace user_management.Middleware
             var request = context.Request;
             var originalResponseBody = context.Response.Body;
             var stopwatch = Stopwatch.StartNew();
-            var userName = context.User.Identity?.IsAuthenticated == true ? context.User.Identity.Name : "Anonymous";
+            var userName = context.Session.GetString("UserName") ?? "Anonymous";
 
             try
             {
@@ -33,16 +33,16 @@ namespace user_management.Middleware
 
                     var log = new ApiLog
                     {
-                        Method = request.Method,
-                        Endpoint = request.Path,
-                        userName = userName,
+                        //Method = request.Method,
+                        //Endpoint = request.Path,
+                        //userName = userName,
                         TimeLimit = stopwatch.Elapsed.TotalSeconds.ToString() + " ms",
-                        StatusCode = context.Response.StatusCode,
+                        //StatusCode = context.Response.StatusCode,
                         IpAddress = context.Connection.RemoteIpAddress?.ToString(),
                         Timestamp = DateTime.UtcNow
                     };
 
-                    await logRepository.SaveApiLog(log);
+                    //await logRepository.SaveApiLog(log);
                 }
             }
             finally

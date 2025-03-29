@@ -109,7 +109,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddSession();
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(1440); // Timeout session sau 30 phút
+    options.IdleTimeout = TimeSpan.FromMinutes(30); 
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
@@ -123,13 +123,15 @@ using (var scope = app.Services.CreateScope())
     try
     {
         await settingService.LoadSettingsToRedisAsync();
-        Console.WriteLine("✅ Settings loaded into Redis successfully.");
+        Console.WriteLine("Settings loaded into Redis successfully.");
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"⚠️ Error loading settings into Redis: {ex.Message}");
+        Console.WriteLine($"Error loading settings into Redis: {ex.Message}");
     }
 }
+
+app.UseSession();
 
 // Thêm Middleware vào pipeline
 app.UseMiddleware<ApiLoggingMiddleware>();
@@ -146,8 +148,6 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
-
-app.UseSession();
 
 app.MapControllers();
 

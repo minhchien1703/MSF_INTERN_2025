@@ -11,5 +11,8 @@ namespace user_management.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
+        public DateTime CreateAt { get; set; }
+        public DateTime UpdateAt { get; set; }
+        public ICollection<UserRole> UserRoles { get; set; }
     }
 }

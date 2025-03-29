@@ -9,11 +9,11 @@ namespace user_management.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        [MaxLength(255)]
-        public string SettingName{ get; set; }
         [MaxLength(50)]
+        public string SettingName{ get; set; }
+        [MaxLength(10)]
         public string Values { get; set; }
-        [MaxLength(255)]
+        [MaxLength(100)]
         public string Descriptions { get; set; }
     }
 }

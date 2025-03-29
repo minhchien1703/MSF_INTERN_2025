@@ -35,7 +35,6 @@ namespace user_management.Controllers
             }
         }
 
-
         [HttpPost("login")]
         public async Task<IActionResult> Login(LoginRequestDto loginRequest)
         {
@@ -45,7 +44,7 @@ namespace user_management.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Login error: {ex.Message}");
+                return StatusCode(500, ex.Message);
             }
         }
 

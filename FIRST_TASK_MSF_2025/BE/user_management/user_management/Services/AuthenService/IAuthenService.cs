@@ -7,5 +7,7 @@ namespace user_management.Services.AuthenService
     {
         Task<MessageResponseDto> Register(RegisterRequestDto req);
         LoginResponseDto Login(LoginRequestDto req);
+
+        bool IsValidEmail(string email);
     }
 }

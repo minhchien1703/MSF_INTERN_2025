@@ -1,0 +1,29 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.content-role-br {
+    border-radius: 5px;
+}
+.nav-role {
+    border-radius: 5px;
+    color: #301c4c;
+}
+
+.btn-setting {
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
+#page-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8d0ec;
+    color: #301c4c;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}

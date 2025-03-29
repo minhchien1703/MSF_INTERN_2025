@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "perMCFWrqbg=",
+  "dgSpecHash": "Ja4NK7w7zaM=",
   "success": true,
-  "projectFilePath": "C:\\2025_INTERN\\BE\\user_management\\user_management\\user_management.csproj",
+  "projectFilePath": "C:\\Users\\cnguy\\OneDrive\\Máy tính\\MSF_INTERN_2025\\FIRST_TASK_MSF_2025\\BE\\user_management\\user_management\\user_management.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cnguy\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\cnguy\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -1,0 +1,53 @@
+
+
+.custom-input {
+  color: #4B5675;
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 16px;
+  outline: none;
+  box-shadow: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #301c4c ;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #022986;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 65%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #4B5675;
+}
+
+.toggle-password:hover {
+  color: #333;
+}
+
+.login-left-bg {
+  background-color: #301c4c;
+}
+
+.border-icon-login {
+  padding: 0.2rem;
+  border-radius: 50%;
+  border: 1px solid #3d3d3d;
+}
+
+.item-left-bg-login {
+  background-color: #fff;
+  border-radius: 50%;
+}

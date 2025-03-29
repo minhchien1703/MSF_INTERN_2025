@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
+using System.Text.RegularExpressions;
 using user_management.Dto.RequestDto;
 using user_management.Dto.ResponseDto;
 using user_management.Mappers;
@@ -32,10 +33,20 @@ namespace user_management.Services.AuthenService
             _settingRepository = settingRepository;
         }
 
+        public bool IsValidEmail(string email)
+        {
+            string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            return Regex.IsMatch(email, pattern);
+        }
+
         public LoginResponseDto Login(LoginRequestDto req)
         {
             try
             {
+                if (!IsValidEmail(req.Email))
+                {
+                    throw new Exception("Valid email format!");
+                }
                 return _authenReponsitory.login(req);
             }
             catch (Exception ex)
@@ -48,6 +59,14 @@ namespace user_management.Services.AuthenService
         {
             try
             {
+                if (!IsValidEmail(req.Email))
+                {
+                    return new MessageResponseDto
+                    {
+                        Message = "Valid email format!"
+                    };
+                }
+
                 var settings = await _settingService.GetSettingsFromRedisAsync();
                 if (settings.TryGetValue(Constants.MAXIMUM_LENGTH, out var maxLengthStr) && int.TryParse(maxLengthStr, out int maxLength))
                 {

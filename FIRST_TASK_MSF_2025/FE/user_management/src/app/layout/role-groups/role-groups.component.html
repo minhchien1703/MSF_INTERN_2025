@@ -1,0 +1,94 @@
+<div class="nav-role bg-white p-2 mb-2 border border-1 d-flex gap-2 justify-content-left align-items-center fw-bold">
+    <i class="bi bi-house-door"></i>
+    <i class="bi bi-chevron-right text-dark"></i>
+    <span style="font-weight: 500; font-size: 14px;">User management</span>
+    <i class="bi bi-chevron-right text-dark"></i>
+    <span style="font-weight: 500; font-size: 14px;">Permission</span>
+</div>
+
+<div class="content-role-br bg-white p-2 mb-2 border border-1">
+    <div class="d-flex justify-content-between">
+        <div style="font-weight: 500; font-size: 14px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+            aria-expanded="true" aria-controls="collapseExample">Advanced filtering</div>
+        <div class="d-flex gap-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+            aria-expanded="true" aria-controls="collapseExample">
+            <span style="font-weight: 500; font-size: 14px;">Filter display</span>
+            <i class="bi bi-chevron-down"></i>
+        </div>
+    </div>
+    <div class="collapse mt-2" id="collapseExample">
+        <div class="card card-body">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Input searching"
+                    aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i
+                        class="bi bi-search"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="content-role-br border border-1 mt-2">
+        <div class="d-flex justify-content-between p-1 d-flex justify-content-center align-items-center ">
+            <span style="font-weight: 500; font-size: 14px;">Role management</span>
+            <div class="d-flex gap-1">
+                <button class="btn btn-success d-flex justify-content-center align-items-center"><i
+                        class="bi bi-plus-circle-dotted"></i></button>
+                <button class="btn btn-danger d-flex justify-content-center align-items-center"><i
+                        class="bi bi-trash3"></i></button>
+            </div>
+        </div>
+        <div class="table-container">
+            <div class="table-responsive"> 
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th style="text-align: center; background-color: #301c4c; color: #fff; font-weight: 500; font-size: 13px;"></th>
+                            <th style="text-align: center; background-color: #301c4c; color: #fff; font-weight: 500; font-size: 13px;">Role name</th>
+                            <th style="text-align: center; background-color: #301c4c; color: #fff; font-weight: 500; font-size: 13px;">Description</th>
+                            <th style="text-align: center; background-color: #301c4c; color: #fff; font-weight: 500; font-size: 13px;">User count</th>
+                            <th style="text-align: center; background-color: #301c4c; color: #fff; font-weight: 500; font-size: 13px;">Created at</th>
+                            <th style="text-align: center; background-color: #301c4c; color: #fff; font-weight: 500; font-size: 13px;">Updated at</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let role of roles">
+                            <td style="text-align: center; width: 50px;">
+                                <button class="btn text-dark border border-1"><i
+                                        class="bi bi-gear-fill"></i></button>
+                            </td>
+                            <td style="text-align: center; color: #4a5568; font-size: 13px;">{{ role.roleName }}</td>
+                            <td style="text-align: center; color: #4a5568; font-size: 13px;">{{ role.description }}</td>
+                            <td style="text-align: center; color: #4a5568; font-size: 13px;">{{ role.userCount }}</td>
+                            <td style="text-align: center; color: #4a5568; font-size: 13px;">{{ role.createdAt }}</td>
+                            <td style="text-align: center; color: #4a5568; font-size: 13px;">{{ role.updatedAt }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex gap-3 align-items-center justify-content-end">
+    <div>
+        <span style="color: #4a5568; font-size: 13px;">1</span>
+        <span style="color: #4a5568; font-size: 13px;">/</span>
+        <span style="color: #4a5568; font-size: 13px;">1</span>
+        <span style="color: #4a5568; font-size: 13px;"> Pages</span>
+    </div>
+
+    <div class="d-flex align-items-center">
+        <span class="btn" style="color: #4a5568; font-size: 13px;"><i class="bi bi-chevron-double-left"></i></span>
+        <span class="btn" style="color: #4a5568; font-size: 13px;"><i class="bi bi-chevron-left"></i></span>
+        <span id="page-num" style="color: #4a5568; font-size: 13px;">1</span>
+        <span class="btn" style="color: #4a5568; font-size: 13px;"><i class="bi bi-chevron-right"></i></span>
+        <span class="btn" style="color: #4a5568; font-size: 13px;"><i class="bi bi-chevron-double-right"></i></span>
+
+    </div>
+
+    <select class="py-1 px-2 form-select-sm" syaria-label=".form-select-sm example">
+        <option selected>5</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+    </select>
+</div>

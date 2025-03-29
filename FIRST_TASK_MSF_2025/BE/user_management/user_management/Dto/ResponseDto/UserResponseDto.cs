@@ -13,6 +13,6 @@ namespace user_management.Dto.ResponseDto
         public string WorkUnit { get; set; }
         public string ResponsibleUnit { get; set; }
         public Boolean Status { get; set; }
-        public Role Role { get; set; }
+        public List<Role> Role { get; set; }
     }
 }

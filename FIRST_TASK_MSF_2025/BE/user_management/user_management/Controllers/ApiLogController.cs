@@ -16,19 +16,19 @@ namespace user_management.Controllers
             _apiLogService = apiLogService;
         }
 
-        [Authorize]
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<ApiLog>>> GetAllApiLog()
-        {
-            try
-            {
-                return Ok(await _apiLogService.GetApiLogs());
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Error fetching apilog: {ex.Message}");
-            }
-        }
+        //[Authorize]
+        //[HttpGet]
+        //public async Task<ActionResult<IEnumerable<ApiLog>>> GetAllApiLog()
+        //{
+        //    try
+        //    {
+        //        return Ok(await _apiLogService.GetApiLogs());
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, $"Error fetching apilog: {ex.Message}");
+        //    }
+        //}
 
     }
 }

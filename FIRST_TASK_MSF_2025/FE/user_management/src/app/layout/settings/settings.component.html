@@ -1,0 +1,31 @@
+<div class="nav-setting bg-white p-2 mb-2 border border-1 d-flex gap-2 justify-content-left align-items-center fw-bold">
+    <i class="bi bi-house-door"></i>
+    <i class="bi bi-chevron-right text-dark"></i>
+    <span style="font-weight: 500; font-size: 14px;">Settings</span>
+</div>
+
+<div class="content-setting-br bg-white p-2 border border-1">
+    <form action="POST">
+        <p style="font-weight: 500; font-size: 14px;">Password setting</p>
+        <div class="d-flex flex-column mt-2">
+            <label for="password-length" style="font-weight: 500; font-size: 13px;">Password length</label>
+            <input type="number" class="form-control mt-1">
+        </div>
+
+        <div class="mt-2 p-2">
+            <div class="d-flex gap-2 align-items-center p-1">
+                <input type="checkbox" name="characters">
+                <label for="characters" style="font-weight: 500; font-size: 13px;">Password must contain special characters</label>
+            </div>
+            <div class="d-flex gap-2 align-items-center p-1">
+                <input type="checkbox" name="numerial">
+                <label for="numerial" style="font-weight: 500; font-size: 13px;">Password contain numerial</label>
+            </div>
+            <div class="d-flex gap-2 align-items-center p-1">
+                <input type="checkbox" name="uppercase">
+                <label for="uppercase" style="font-weight: 500; font-size: 13px;">Password contain uppercase</label>
+            </div>
+        </div>
+        <button class="btn-setting btn text-light">Save</button>
+    </form>
+</div>

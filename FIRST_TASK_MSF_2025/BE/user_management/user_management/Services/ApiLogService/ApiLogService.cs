@@ -12,17 +12,17 @@ namespace user_management.Services.ApiLogService
             _logRepository = logRepository;
         }
 
-        public async Task<List<ApiLog>> GetApiLogs()
-        {
-            try
-            {
-                return await _logRepository.GetAllApiLogs();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error get apiLogs by repo: {ex.Message}");
-                throw new Exception($"Error get apiLogs by repo: {ex.Message}");
-            }
-        }
+        //public async Task<List<ApiLog>> GetApiLogs()
+        //{
+        //    try
+        //    {
+        //        return await _logRepository.GetAllApiLogs();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine($"Error get apiLogs by repo: {ex.Message}");
+        //        throw new Exception($"Error get apiLogs by repo: {ex.Message}");
+        //    }
+        //}
     }
 }

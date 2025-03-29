@@ -30,13 +30,6 @@ namespace user_management.Mappers
             userResponse.ResponsibleUnit = user.ResponsibleUnit;
             userResponse.Status = user.Status;
 
-            var role = await _roleRepository.FindRoleById(user.Role_Id);
-            if (role == null)
-            {
-                throw new ArgumentException("Role is null or empty!");
-            }
-            userResponse.Role = role;
-
             return userResponse;
         }
 
@@ -58,7 +51,6 @@ namespace user_management.Mappers
                 userResponse.WorkUnit = user.WorkUnit;
                 userResponse.ResponsibleUnit = user.ResponsibleUnit;
                 userResponse.Status = user.Status;
-                userResponse.Role = user.Role;
 
                 userResponses.Add(userResponse);
             }

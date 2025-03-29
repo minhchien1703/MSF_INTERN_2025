@@ -1,0 +1,61 @@
+<div class="d-flex flex-column p-3 sidebar border border-1">
+    <hr>
+    <div class="h-100">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a routerLink="/layout/dashboard" routerLinkActive="active" class="nav-link">
+                    <i class="bi bi-speedometer2 me-2"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link d-flex justify-content-between align-items-center" (click)="toggleUserMenu()">
+                    <span><i class="bi bi-person-circle me-2"></i>User management</span>
+                    <i class="bi"
+                        [ngClass]="{ 'bi-chevron-down': !isUserMenuOpen, 'bi-chevron-up': isUserMenuOpen }"></i>
+                </a>
+                <ul class="nav flex-column ms-3" *ngIf="isUserMenuOpen">
+                    <li class="nav-item">
+                        <a routerLink="/layout/users" routerLinkActive="active" class="nav-link">User</a>
+                    </li>
+                    <li class="nav-item">
+                        <a routerLink="/layout/roles" routerLinkActive="active" class="nav-link">Permissions</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/layout/system-diary" routerLinkActive="active" class="d-flex nav-link gap-2">
+                    <i class="bi bi-clock-history"></i>
+                    <span>System history</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/layout/setting" routerLinkActive="active" class="d-flex nav-link gap-2">
+                    <i class="bi bi-gear"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <hr>
+
+    <div class="d-flex justify-content-center dropdown-sidebar-user dropdown ">
+        <a class="d-flex align-items-center text-decoration-none text-dark" role="button"
+            data-bs-toggle="dropdown">
+            <img src="https://scontent.fhan4-4.fna.fbcdn.net/v/t39.30808-6/474809931_1259491558459534_1397098119455392449_n.jpg?stp=c0.169.1536.1536a_dst-jpg_s206x206_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ad20&_nc_ohc=G3d4TJyvmn4Q7kNvgGrzVbb&_nc_oc=AdmwprV8h4PFikWh14mrxSs1h1wCq5WqmEbJaJ58TqJGma0JgZDtPvxmXTWx4q8ir9s&_nc_zt=23&_nc_ht=scontent.fhan4-4.fna&_nc_gid=vjEEXsYY1rTTI29AZbI8-A&oh=00_AYHEMrJF6hoCpG5PLpvdveW0By5aOMKmysfyY4Ef9o1DSQ&oe=67E97AF9"
+                alt="User" class="rounded-circle me-2" width="40" height="40">
+            <div class="d-flex flex-column">
+                <strong class="me-2" style="font-size: 14px; color: #222;">Le Ngoc Anh</strong>
+                <span style="font-size: 13px; color: #4a5568;">ADMIN</span>
+            </div>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/layout/setting">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" routerLink="/auth/login">Sign out</a></li>
+        </ul>
+    </div>
+</div>
